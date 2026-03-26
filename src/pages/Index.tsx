@@ -110,8 +110,8 @@ export default function Index() {
           Your report helps improve campus life for everyone. It takes less than a minute.
         </p>
         <Button asChild size="lg" className="gradient-accent text-accent-foreground rounded-xl shadow-lg font-semibold hover:opacity-90">
-          <Link to="/report">
-            Report Now <ArrowRight className="ml-2 h-5 w-5" />
+          <Link to="/login">
+            Get Started <ArrowRight className="ml-2 h-5 w-5" />
           </Link>
         </Button>
       </section>
