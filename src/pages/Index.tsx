@@ -47,12 +47,12 @@ export default function Index() {
             </p>
             <div className="flex flex-wrap gap-3 pt-2">
               <Button asChild size="lg" className="gradient-accent text-accent-foreground font-semibold rounded-xl shadow-lg hover:opacity-90 transition-opacity">
-                <Link to="/report">
-                  Report an Issue <ArrowRight className="ml-2 h-5 w-5" />
+                <Link to="/login">
+                  Get Started <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
               <Button asChild variant="outline" size="lg" className="rounded-xl border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10">
-                <Link to="/track">Track My Tickets</Link>
+                <Link to="/login">Sign In</Link>
               </Button>
             </div>
           </div>
@@ -110,8 +110,8 @@ export default function Index() {
           Your report helps improve campus life for everyone. It takes less than a minute.
         </p>
         <Button asChild size="lg" className="gradient-accent text-accent-foreground rounded-xl shadow-lg font-semibold hover:opacity-90">
-          <Link to="/report">
-            Report Now <ArrowRight className="ml-2 h-5 w-5" />
+          <Link to="/login">
+            Get Started <ArrowRight className="ml-2 h-5 w-5" />
           </Link>
         </Button>
       </section>
